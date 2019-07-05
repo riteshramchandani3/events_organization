@@ -1,6 +1,6 @@
 <html>
 <head>
 
-<h1>HI welcome to Events Organization </h1>
+<h1>Hello </h1>
 </head
 <html>
