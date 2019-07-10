@@ -7,7 +7,7 @@
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
-                     <a class="navbar-brand" href="#">WedingZZ</a>
+                     <a class="navbar-brand" href="#">TO Be done </a>
                 </div>
                 <ul class="nav navbar-nav pull-right">
                     <li><a href="#">Home</a></li>
