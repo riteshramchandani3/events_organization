@@ -12,7 +12,7 @@
                 <ul class="nav navbar-nav pull-right">
                     <li><a href="#">Home</a></li>
                     <li class="dropdown float-right">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Click Here<i class="fa fa-user"></i>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-user"></i>
                         </a>
                        
                     </li>
