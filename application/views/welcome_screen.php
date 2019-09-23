@@ -2,7 +2,7 @@
     <head>
         <?php require_once ('assets/html_head_links.php'); ?>
     </head>
-    <title>Events</title>
+    <title>Events Organization</title>
 
     <body>
         <nav class="navbar navbar-inverse">
