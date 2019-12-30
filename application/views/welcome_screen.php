@@ -8,14 +8,12 @@
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
-                     <a class="navbar-brand" href="#">Needs to be done</a>
+                    <a class="navbar-brand" href="#">FITNESS ICON</a>
                 </div>
                 <ul class="nav navbar-nav pull-right">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sign In</a></li>
                     <li class="dropdown float-right">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Logout<i class="fa fa-user"></i>
-                        </a>
-                       
+                        <a href="<?php echo site_url('Default_controller/enquiryForm'); ?>">Enquiry</a>              
                     </li>
 
                 </ul>
