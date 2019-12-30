@@ -7,13 +7,10 @@ class Default_controller extends CI_Controller {
         $this->load->view('welcome_screen');
     }
 
+    public function enquiryForm() {
 
-public function add(){
-
-$this->load->view('welcome_screen');
-
-
-}
+        $this->load->view('enquiry_form');
+    }
 
 }
 
