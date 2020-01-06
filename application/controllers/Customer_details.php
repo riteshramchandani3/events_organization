@@ -50,7 +50,8 @@ class Customer_details extends CI_Controller {
     }
 
     public function convertToGymMember() {
-        $id = $_GET['id'];
+
+        $id = $this->input->get('id');
 
         $j = $this->Customer_details_mdl->updateToGymMember($id);
 
@@ -60,25 +61,7 @@ class Customer_details extends CI_Controller {
         }
     }
 
-    public function updateDate($package) {
-        $id = $_GET['id'];
-        
-        $j = $this->Customer_details_mdl->getGymCustomersPkage($package);
-        
-        if ($package == '1 Month') {
-
-            $j = $this->Customer_details_mdl->updateDate($id);
-        }
-
-        if ($package == '3 Month') {
-
-            $j = $this->Customer_details_mdl->updateDateThreeMonth($id);
-        }
-        if ($package == '6 Month') {
-
-            $j = $this->Customer_details_mdl->updateDateForSixMonth($id);
-        }
-    }
+    
 
 }
 

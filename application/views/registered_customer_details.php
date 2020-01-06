@@ -44,8 +44,9 @@
                             <tbody>
                                 <?php
                                 foreach ($this->Customer_details_mdl->getRegisterdCustomers() as $customers) {
+                                    
                                     ?>  
-
+                               
 
                                     <tr>
                                         <td><?php echo $customers['name']; ?></td>
