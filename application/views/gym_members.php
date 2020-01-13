@@ -1,12 +1,9 @@
 <html>
     <head>
-
         <style>
             .main{
                 margin-top: 2%;
-
             }
-
             .danger{
                 background-color:  #ac2925;
             }
@@ -28,7 +25,7 @@
 
                         <table id="example" class="table table-striped table-bordered">                   
                             <thead>
-                                <tr>
+                              
                                     <th>Name</th>
                                     <th>Phone</th>
                                     <th>Email</th>
@@ -39,7 +36,7 @@
                                     <th>Weight</th>
                                     <th>Package</th>
                                     <th>Action</th>
-                                </tr>
+                            
                             </thead>
                             <tbody>
                                 <?php

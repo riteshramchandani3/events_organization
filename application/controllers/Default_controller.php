@@ -19,12 +19,21 @@ class Default_controller extends CI_Controller {
     public function showRegisteredCustomers() {
         $this->load->view('registered_customer_details');
     }
+
     public function showGymCustomers() {
         $this->load->view('gym_members');
     }
 
     public function goToHome() {
         $this->load->view('Home');
+    }
+
+    public function redirectAdminHome() {
+        $this->load->view('Admin/adminHome');
+    }
+    
+    public function signUp() {
+        $this->load->view('Users/signUp');
     }
 
 }

@@ -38,17 +38,16 @@
                                     <div class="form-group">
                                         <label for="name">Name:</label>
                                         <input type="name" name="name" class="form-control" placeholder="Enter Name" id="email">
-                                        <?php echo form_error('name'); ?>
+                                      <span style="color:red"><?php echo form_error('name'); ?></span>
                                     </div>
                                     <div class="form-group">
                                         <label for="pwd">Phone:</label>
                                         <input type="text" name="phone" class="form-control" placeholder="Enter Phone">
-                                        <?php echo form_error('phone'); ?>
-                                    </div>
+                                        <span style="color:red"><?php echo form_error('phone'); ?></span>                                    </div>
                                     <div class="form-group">
                                         <label for="pwd">Email:</label>
                                         <input type="text" name="email" class="form-control" placeholder="Enter Email">
-                                        <?php echo form_error('email'); ?>
+                                        <span style="color:red"><?php echo form_error('email'); ?></span>  
                                     </div>
                                     <div class="form-group">
                                         <label for="pwd">Occupation:</label>
@@ -68,17 +67,17 @@
                                     <div class="form-group">
                                         <label for="pwd">Date of birth:</label>
                                         <input type="date" name="dob" class="form-control" placeholder="Enter Date of birth">
-                                        <?php echo form_error('dob'); ?>
+                                       <span style="color:red"><?php echo form_error('dob'); ?></span>
                                     </div>
                                     <div class="form-group">
                                         <label for="email">Height:</label>
                                         <input type="text" name="height" class="form-control" placeholder="Enter Height" id="email">
-                                        <?php echo form_error('height'); ?>
+                                      <span style="color:red"><?php echo form_error('height'); ?></span>
                                     </div>
                                     <div class="form-group">
                                         <label for="pwd">Weight:</label>
                                         <input type="text" name="weight" class="form-control" placeholder="Enter Weight">
-                                        <?php echo form_error('weight'); ?>
+                                        <span style="color:red"><?php echo form_error('weight'); ?></span>
                                     </div>
                                     <div>
                                         <label for="pwd">Package Subscription:</label>
