@@ -15,10 +15,10 @@ class Admin extends CI_Controller {
             $password = ($this->input->post('password'));
 
             $login_id = $this->Login_model->isValidLogin($username, $password);
-          
+
             if ($login_id) {
-              $Loginid= $this->session->set_userdata('id', $login_id);
-              echo $login_id;
+                $Loginid = $this->session->set_userdata('id', $login_id);
+                echo $login_id;
 
                 return redirect('Admin/welcome');
             } else {
@@ -29,8 +29,15 @@ class Admin extends CI_Controller {
     }
 
     public function welcome() {
+        if (!$this->session->userdata('id')) {
+            return redirect('Admin/redirectLogin');
+        }
         $articals = $this->Login_model->articalList();
         $this->load->view('Admin/adminHome', ['articals' => $articals]);
+    }
+
+    public function redirectLogin() {
+        $this->load->view('Admin/login');
     }
 
     public function signUp() {
@@ -52,7 +59,7 @@ class Admin extends CI_Controller {
             $this->email->subject('Email Test');
             $this->email->message('Testing the email class.');
             $this->email->send();
-           // show_error($this->email->print_debugger());
+            // show_error($this->email->print_debugger());
             echo "mail sent";
         }
     }
