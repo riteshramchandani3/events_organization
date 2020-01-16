@@ -4,7 +4,7 @@
     </head>
 
     <body>
-        <?php echo form_open('Admin/signUp') ?>
+        <?php echo form_open('Admin/add_users') ?>
         <div class="container">
             <div class="panel panel-primary" style="margin-top: 20px;">
                 <div class="panel-heading"><h4>SignUp</h4></div>
